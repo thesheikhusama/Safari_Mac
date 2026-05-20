@@ -1,0 +1,12 @@
+{
+  "name": "safari-testing",
+  "version": "1.0.0",
+  "description": "Safari testing with Playwright on real macOS via GitHub Actions",
+  "scripts": {
+    "test": "node tests/safari-test.js",
+    "test:local": "TEST_URL=http://localhost:3000 node tests/safari-test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
